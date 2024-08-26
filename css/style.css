@@ -1,0 +1,90 @@
+header{
+    background-color: aqua;
+    color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+li{
+    margin: 20px;
+}
+.sec1{
+    display: flex;
+    flex-direction: row;
+}
+img{
+    width: 600px;
+}
+.navproductos{
+    color: aqua;
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sec2{
+    background-color: coral;
+    text-align: center;
+}.sec3{
+    background-color:aquamarine;
+}
+.divservicios{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+.h2servicios{
+    text-align: center;
+}
+footer{
+    color: azure;
+    background-color: darkslategrey;
+    text-align: center;
+}
+.sec1somos{
+    display: flex;
+    flex-direction: row;
+}
+.div1somos{
+    text-align: center;
+}
+.sec1productos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+.sec1productos img{
+    width: 60%;
+    border-radius: 20px;
+    margin: 30px 0;
+}
+.sec1servicios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.sec1servicios img{
+    width: 30%;
+    border-radius: 20px;
+    margin: 30px 0;
+}
+.div1contacto{
+    display: flex;
+    flex-direction: column;
+}
+.div1contacto label{
+    margin-top: 20px;
+}
+.div2contactos{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
